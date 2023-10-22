@@ -20,7 +20,7 @@ Para poder usar el proyecto, debe descargar el repositorio en sí que contiene t
 
 # License
 [![License](https://www.gnu.org/graphics/gplv3-127x51.png)](LICENSE)   
-Ultroid is licensed under [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html) v3 or later.
+ProjectCatedraDAW is licensed under [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html) v3 or later.
 
 ---
 
