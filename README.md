@@ -23,7 +23,7 @@ Escriba o abra [http://localhost:3000](http://localhost:3000) para visualizarlo 
 
 ### `npm test` ✔
 
-2. Inicializa el test al ver en el modo interactivo.👀<br>
+2. Inicializa el test al ver en el modo interactivo.👁👀<br>
 Revise la sección de testeo [Corriendo tests](https://facebook.github.io/create-react-app/docs/running-tests) Para más información. 🗺️
 
 3. Listo! ya tiene su Login el cual puede logearse o registrarse. 🖐️
