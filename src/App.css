@@ -1,0 +1,200 @@
+/* Estilo de fondo */
+body {
+  background-image: url('https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  padding-bottom: 5%;
+  
+}
+
+/* Estilo del contenedor principal */
+.contenedor-formulario {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  position: relative;
+}
+
+/* Estilo del mensaje de bienvenida */
+.mensaje {
+  padding: 1rem;
+}
+
+.mensaje h2 {
+  font-size: 1.7rem;
+  padding: 1rem 0;
+}
+
+/* Estilo de los botones */
+.mensaje button {
+  padding: 1rem;
+  font-weight: 400;
+  background-color: #4a4aee;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  transition: all 0.3s ease-in;
+  color: #fff;
+}
+
+.mensaje button:hover {
+  background-color: #6464f8;
+}
+
+/* Estilo del formulario */
+.formulario {
+  width: 45%;
+  padding: 1rem;
+  background-color: rgba(51, 51, 51, 0.602);
+  text-align: center;
+  position: relative;
+}
+
+/* Posicion del div mensaje de bienvenida */
+
+.mensaje-izquierda {
+  text-align: center;
+  order: 1;
+}
+
+.formulario-derecha {
+  order: 2;
+}
+
+/* */
+.mensaje-derecha {
+  text-align: center;
+  order: 2;
+}
+
+.formulario-izquierda {
+  order: 1;
+}
+
+/* */
+
+.crear-cuenta {
+  padding: 2rem 0;
+  font-size: 1.7rem;
+}
+
+/* Estilo de los iconos */
+.iconos {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.borde-icono {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  border: solid thin white;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  transition: all 0.3s ease-in;
+}
+
+.borde-icono:hover {
+  background-color: #4a4aee;
+  cursor: pointer;
+}
+
+/* Estilo del mensaje "¿Aún no tienes una cuenta?" */
+.cuenta-gratis {
+  padding: 2rem 0;
+}
+
+/* Estilo de los campos de entrada de texto y contraseña */
+.formulario input {
+  width: 70%;
+  display: block;
+  margin: auto;
+  margin-bottom: 2rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: white thin solid;
+  text-align: center;
+  outline: none;
+  padding: 0.2rem 0;
+  font-size: 0.9rem;
+  color: white;
+}
+
+/* Estilo del botón de "Registrarse" o "Iniciar Sesión" */
+.formulario input[type="submit"] {
+  width: 60%;
+  margin: auto;
+  border: solid thin white;
+  padding: 0.7rem;
+  border-radius: 2rem;
+  background-color: white;
+  font-weight: 600;
+  margin-top: 3rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: #222;
+}
+
+/* Estilo del mensaje de éxito */
+.mensaje-exito {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #000000;
+  border: #fff solid;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  z-index: 2; 
+}
+
+
+.mensaje-error {
+  font-weight: 800;
+  font-size: 1rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #dad9d9;
+  border: #fff solid;
+  color: rgb(139, 15, 15);
+  padding: 1%;
+  text-align: center;
+  display: block;
+  z-index: 2; 
+}
+
+
+.mensaje-error button {
+  background-color: #2540b9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5%;
+  cursor: pointer;
+
+}
+
+
+
+
